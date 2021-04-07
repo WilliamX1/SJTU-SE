@@ -1,0 +1,76 @@
+> 开头的行表示输入，< 开头的行表示期望的输出
+
+> x
+< ? Bad/Unknown command
+> x,1n
+< ? Bad/Unknown command
+> 1,xn
+< ? Bad/Unknown command
+> x,xn
+< ? Bad/Unknown command
+> abcd
+< ? Bad/Unknown command
+> 1a
+< ? Bad/Unknown command
+> 1 a
+< ? Bad/Unknown command
+> 2
+< ? Line number out of range
+> 1,1n
+< ? Line number out of range
+> 1,2d
+< ? Line number out of range
+> 1,$n
+< ? Number range error
+> 2,1n
+< ? Number range error
+> 2,1d
+< ? Delete range error
+> i
+> a
+> b
+> c
+> .
+> 1,$n
+< 1\ta
+< 2\tb
+< 3\tc
+> a
+> d
+> e
+> .
+> 3,5n
+< 3\tc
+< 4\td
+< 5\te
+> 2,10d
+< ? Line number out of range
+> 2,4d
+> i
+> 0
+> .
+> 1,$n
+< 1\ta
+< 2\t0
+< 3\te
+> a
+> !
+> .
+> 1
+< a
+> i
+> ~
+> .
+> 1,$n
+< 1\t~
+< 2\ta
+< 3\t0
+< 4\te
+< 5\t!
+> w
+< ? Filename not specified
+> w 
+< ? Filename not specified
+> w out
+< 10 byte(s) written
+> Q
