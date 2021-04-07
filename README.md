@@ -14,6 +14,13 @@
 | 计算机系统基础(汇编) | ICS | [lab1](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab1) | 2020.9 - 2021.1 |
 | 计算机系统基础(汇编) | ICS | [lab2](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab2) | 2020.9 - 2021.1 |
 | 计算机系统基础(汇编) | ICS | [lab3](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab3) | 2020.9 - 2021.1 |
-| 计算机系统基础(组成) | ICS | [lab4](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab4) | 2020.9 - 2021.1 |
-| 计算机系统基础(组成) | ICS | [lab5](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab4) | 2020.9 - 2021.1 |
-| 计算机系统基础(组成) | ICS | [lab6](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab6) | 2020.9 - 2021.1 |
+| 计算机系统基础(组成) | ICS | [lab4](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab4) | 2021.3 - 2021.7 |
+| 计算机系统基础(组成) | ICS | [lab5](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab4) | 2020.3 - 2021.7 |
+| 计算机系统基础(组成) | ICS | [lab6](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab6) | 2020.3 - 2021.7 |
+| 高级数据结构 | DS | [Dictionary](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Dictionary.cpp) | 2020.3 - 2021.7 |
+| 高级数据结构 | DS | [BalanceBST](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/BalanceBST.cpp) | 2020.3 - 2021.7 |
+| 高级数据结构 | DS | [SortedListtoBST](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/SortedListtoBST.cpp) | 2020.3 - 2021.7 |
+| 高级数据结构 | DS | [Skiplist](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Skiplist.cpp) | 2020.3 - 2021.7 |
+| 高级数据结构 | DS | [Limset](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Limset.cpp) | 2020.3 - 2021.7 |
+| 高级数据结构 | DS | [Merkle](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Merkle.cpp) | 2020.3 - 2021.7 |
+
