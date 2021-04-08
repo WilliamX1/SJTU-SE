@@ -114,7 +114,7 @@ vector<unsigned long> Merkle_Tree::getProof(unsigned long hash_value) {
     vector<unsigned long> res;
     /*对于不存在的节点需要返回0*/
     if (tmp == nullptr) {
-        res.push_back(0);
+        // res.push_back(FLAG);
     } else {
         node* father_tmp = tmp->father;
         while (father_tmp != nullptr) {
@@ -125,11 +125,11 @@ vector<unsigned long> Merkle_Tree::getProof(unsigned long hash_value) {
             } else {
                 res.push_back(FLAG);
             };
-
             tmp = father_tmp;
             father_tmp = tmp->father;
         }
-    };
+    }
+   
     
     return res;
 }
@@ -138,6 +138,7 @@ void Merkle_Tree::addTransaction(unsigned long new_hash_value) {
     if (head->next == nullptr) {
         head->next = new leaf_node(new_hash_value);
         head->next->father = new node(new_hash_value);
+        head->next->father->father = new node(new_hash_value, head->next->father, nullptr);
         return;
     }
     
@@ -190,7 +191,7 @@ void Merkle_Tree::addTransaction(unsigned long new_hash_value) {
 }
 unsigned long Merkle_Tree::getRootHash() {
 
-    unsigned long res = -1;
+    unsigned long res = FLAG;
     if (head->next != nullptr) {
         node* cursor = head->next->father;
         while (cursor->father != nullptr) cursor = cursor->father;
@@ -235,12 +236,13 @@ void Merkle_Tree::printTree(){
 //         v.push_back(i);
 //     };
 
-//     Merkle_Tree tree(v);
+//     Merkle_Tree tree;
+//     tree.addTransaction(1);
 //     tree.printTree();
 
 //     cout << tree.getRootHash() << endl;
     
-//     vector<unsigned long> vv = tree.getProof(6);
+//     vector<unsigned long> vv = tree.getProof(1);
 //     vector<unsigned long>::iterator iter = vv.begin();
 //     while (iter != vv.end()) {
 //         cout << *iter << " ";
