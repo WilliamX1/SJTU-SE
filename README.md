@@ -23,4 +23,4 @@
 | 高级数据结构 | DS | [Skiplist](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Skiplist.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [Limset](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Limset.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [Merkle](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Merkle.cpp) | 2020.3 - 2021.7 |
-
+| 高级数据结构 | DS | [Mini-Basic](https://github.com/WilliamX1/SJTU-SE/tree/main/DS/Mini-Basic) | 2020.3 - 2021.7 |
