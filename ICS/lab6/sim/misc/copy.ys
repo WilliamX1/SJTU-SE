@@ -32,14 +32,15 @@ copy_block:	irmovq $1, %r8		# Constant 1
 loop:		andq %rdx, %rdx		# Set conditional CC
 		je return		# if len <= 0, return
 		mrmovq (%rdi), %rbx	# val = *src
-		addq %r9, %rdi		# src++
-		addq %r9, %rsi		# dest++		
-		rmmovq %rbx, (%rsi)	# *dest = val
-		xorq %rbx, %rax		# result ^= val
-		subq %r8, %rdx		# len-- 
-		jmp loop
+​		rmmovq %rbx, (%rsi)	# *dest = val
+​		addq %r9, %rdi		# src++
+​		addq %r9, %rsi		# dest++		
+​		xorq %rbx, %rax		# result ^= val
+​		subq %r8, %rdx		# len-- 
+​		jmp loop
 return:
-		ret
+​		ret
+
 # Stack starts here and grows to lower addresses
 	.pos 0x200
 stack:

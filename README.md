@@ -17,6 +17,7 @@
 | 计算机系统基础(组成) | ICS | [lab4](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab4) | 2021.3 - 2021.7 |
 | 计算机系统基础(组成) | ICS | [lab5](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab4) | 2020.3 - 2021.7 |
 | 计算机系统基础(组成) | ICS | [lab6](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab6) | 2020.3 - 2021.7 |
+| 计算机系统基础(组成) | ICS | [lab7](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab7) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [Dictionary](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Dictionary.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [BalanceBST](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/BalanceBST.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [SortedListtoBST](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/SortedListtoBST.cpp) | 2020.3 - 2021.7 |
@@ -24,3 +25,4 @@
 | 高级数据结构 | DS | [Limset](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Limset.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [Merkle](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Merkle.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [Mini-Basic](https://github.com/WilliamX1/SJTU-SE/tree/main/DS/Mini-Basic) | 2020.3 - 2021.7 |
+| 高级数据结构 | DS | [KD-Tree](https://github.com/WilliamX1/SJTU-SE/tree/main/DS/KD-Tree.py) | 2020.3 - 2021.7 |

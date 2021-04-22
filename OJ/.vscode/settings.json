@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "initializer_list": "cpp",
+        "unordered_map": "cpp",
+        "type_traits": "cpp",
+        "xstring": "cpp"
+    }
+}
