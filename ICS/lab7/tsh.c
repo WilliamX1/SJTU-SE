@@ -178,6 +178,7 @@ void eval(char *cmdline)
     /* if the command is empty, return directly */
     if (argv[0] == NULL) return;
 
+
     /* check if it's a build-in command */
     if (!builtin_cmd(argv)) {
         /* bit mask used to block specified signal and restore previous state */
@@ -422,10 +423,10 @@ void sigchld_handler(int sig)
         if (WIFEXITED(status)) {
             if (!deletejob(jobs, pid)) unix_error("delete job failed!");
         } else if (WIFSIGNALED(status)) { /* signal-cause terminated case */
-            printf("Job [%d] (%d) terminated by signal 2\n", pid2jid(pid), pid);
+            printf("Job [%d] (%d) terminated by signal %d\n", jid, pid, WTERMSIG(status));
             if (!deletejob(jobs, pid)) unix_error("delete job failed!");
         } else if (WIFSTOPPED(status)) { /* stopped case */
-            printf("Job [%d] (%d) stopped by signal 20\n", pid2jid(pid), pid);
+            printf("Job [%d] (%d) stopped by signal %d\n", jid, pid, WSTOPSIG(status));
             struct job_t *job = getjobpid(jobs, pid);
             if (job == NULL) unix_error("get job pid failed!");
             job->state = ST;
@@ -448,10 +449,17 @@ void sigint_handler(int sig)
     int olderrno = errno; /* store the old errno in order to restore it when finished */
 
     pid_t pid = fgpid(jobs);
+    sigset_t mask_all, prev_all;
+
+    sigfillset(&mask_all);
+
+    sigprocmask(SIG_BLOCK, &mask_all, &prev_all);
+
     if (pid == 0) return;
     if (kill(-pid, SIGINT) == -1) unix_error("send signal SIGINT failed!");
 
     /* restore the error number */
+    sigprocmask(SIG_SETMASK, &prev_all, NULL);
     errno = olderrno;
     return;
 }
@@ -466,10 +474,17 @@ void sigtstp_handler(int sig)
     int olderrno = errno; /* store the old errno in order to restore it when finished */
 
     pid_t pid = fgpid(jobs);
+    sigset_t mask_all, prev_all;
+
+    sigfillset(&mask_all);
+
+    sigprocmask(SIG_BLOCK, &mask_all, &prev_all);
+
     if (pid == 0) return;
     if (kill(-pid, SIGTSTP) == -1) unix_error("send signal SIGTSTP failed\n");
 
     /* restore the error number */
+    sigprocmask(SIG_SETMASK, &prev_all, NULL);
     errno = olderrno;
     return;
 }
@@ -523,7 +538,7 @@ int addjob(struct job_t *jobs, pid_t pid, int state, char *cmdline)
 	    jobs[i].state = state;
 	    jobs[i].jid = nextjid++;
 	    if (nextjid > MAXJOBS)
-		nextjid = 1;
+		    nextjid = 1;
 	    strcpy(jobs[i].cmdline, cmdline);
   	    if(verbose){
 	        printf("Added job [%d] %d %s\n", jobs[i].jid, jobs[i].pid, jobs[i].cmdline);
@@ -558,7 +573,7 @@ pid_t fgpid(struct job_t *jobs) {
     int i;
 
     for (i = 0; i < MAXJOBS; i++)
-	if (jobs[i].state == FG)
+	    if (jobs[i].state == FG)
 	    return jobs[i].pid;
     return 0;
 }
