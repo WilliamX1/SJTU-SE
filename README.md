@@ -20,6 +20,7 @@
 | 计算机系统基础(组成) | ICS | [lab7](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab7) | 2020.3 - 2021.7 |
 | 计算机系统基础(组成) | ICS | [lab8](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab8) | 2020.3 - 2021.7 |
 | 计算机系统基础(组成) | ICS | [lab9](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab9) | 2020.3 - 2021.7 |
+| 计算机系统基础(组成) | ICS | [lab10](https://github.com/WilliamX1/SJTU-SE/tree/main/ICS/lab10) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [Dictionary](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/Dictionary.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [BalanceBST](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/BalanceBST.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [SortedListtoBST](https://github.com/WilliamX1/SJTU-SE/blob/main/DS/SortedListtoBST.cpp) | 2020.3 - 2021.7 |
