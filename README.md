@@ -37,3 +37,4 @@
 | 高级数据结构 | DS | [PageRank](https://github.com/WilliamX1/SJTU-SE/tree/main/DS/PageRank.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [MST](https://github.com/WilliamX1/SJTU-SE/tree/main/DS/MST.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [Hashing](https://github.com/WilliamX1/SJTU-SE/tree/main/DS/Hashing.cpp) | 2020.3 - 2021.7 |
+| 高级数据结构 | DS | [LSM-Tree](https://github.com/WilliamX1/SJTU-SE/tree/main/DS/LSM_Tree) | 2020.3 - 2021.7 |
