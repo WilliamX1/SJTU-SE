@@ -38,3 +38,22 @@
 | 高级数据结构 | DS | [MST](https://github.com/WilliamX1/SJTU-SE/tree/main/DS/MST.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [Hashing](https://github.com/WilliamX1/SJTU-SE/tree/main/DS/Hashing.cpp) | 2020.3 - 2021.7 |
 | 高级数据结构 | DS | [LSM-Tree](https://github.com/WilliamX1/SJTU-SE/tree/main/DS/LSM_Tree) | 2020.3 - 2021.7 |
+| 电类学科创新前沿导论 | - | [期末大作业](https://github.com/WilliamX1/SJTU-SE/tree/main/电类学科创新前沿导论/README.md) | 2021.1 |
+| 计算机系统工程 | CSE | [hands-on-1](https://github.com/WilliamX1/SJTU-SE/tree/main/CSE/cse-hands-on/hands-on-1/README.md) | 2020.9 - 2021.1 |
+| 计算机系统工程 | CSE | [hands-on-2](https://github.com/WilliamX1/SJTU-SE/tree/main/CSE/cse-hands-on/hands-on-2/README.md) | 2020.9 - 2021.1 |
+| 计算机系统工程 | CSE | [hands-on-3](https://github.com/WilliamX1/SJTU-SE/tree/main/CSE/cse-hands-on/hands-on-3/README.md) | 2020.9 - 2021.1 |
+| 计算机系统工程 | CSE | [hands-on-4](https://github.com/WilliamX1/SJTU-SE/tree/main/CSE/cse-hands-on/hands-on-4/README.md) | 2020.9 - 2021.1 |
+| 计算机系统工程 | CSE | [Lab 1: Basic File System](https://github.com/WilliamX1/cse-2021) | 2020.9 - 2021.1 |
+| 计算机系统工程 | CSE | [Lab 2: Word Count with MapReduce](https://github.com/WilliamX1/cse-2021) | 2020.9 - 2021.1 |
+| 计算机系统工程 | CSE | [Lab 3: Fault-tolerant Key-Value Store with Raft](https://github.com/WilliamX1/cse-2021) | 2020.9 - 2021.1 |
+| 计算机系统工程 | CSE | [Lab 4: Shard Transactional KVS Service](https://github.com/WilliamX1/cse-2021) | 2020.9 - 2021.1 |
+| 算法设计 | Algorithm | [大论文](https://github.com/WilliamX1/SJTU-SE/tree/main/Algorithm/Symmetric_Encryption.pdf) | 2021.1 |
+| 机器学习 | ML | [lab1](https://github.com/WilliamX1/machine-learning/tree/main/hw/lab1) | 2021.1 |
+| 机器学习 | ML | [proj](https://github.com/WilliamX1/machine-learning/tree/main/hw/proj) | 2021.1 |
+| 人工智能 | AI | [AI-poet](https://github.com/WilliamX1/AI-poet) | 2021.1 |
+| 编译原理 | Compiler | [lab1](https://github.com/WilliamX1/tiger-compiler) | 2020.9 - 2021.1 |
+| 编译原理 | Compiler | [lab2](https://github.com/WilliamX1/tiger-compiler) | 2020.9 - 2021.1 |
+| 编译原理 | Compiler | [lab3](https://github.com/WilliamX1/tiger-compiler) | 2020.9 - 2021.1 |
+| 编译原理 | Compiler | [lab4](https://github.com/WilliamX1/tiger-compiler) | 2020.9 - 2021.1 |
+| 编译原理 | Compiler | [lab5](https://github.com/WilliamX1/tiger-compiler) | 2020.9 - 2021.1 |
+| 编译原理 | Compiler | [lab6](https://github.com/WilliamX1/tiger-compiler) | 2020.9 - 2021.1 |
