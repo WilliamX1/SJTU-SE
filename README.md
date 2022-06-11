@@ -65,4 +65,5 @@
 | 无人系统设计 | filght-design | [hw2](https://github.com/WilliamX1/SJTU-SE/blob/main/无人系统设计/hw2) | 2022.3 - 2022.7 | 大三下 |
 | 无人系统设计 | filght-design | [hw3](https://github.com/WilliamX1/SJTU-SE/blob/main/无人系统设计/hw3) | 2022.3 - 2022.7 | 大三下 |
 | 无人系统设计 | filght-design | [hw4](https://github.com/WilliamX1/SJTU-SE/blob/main/无人系统设计/hw4) | 2022.3 - 2022.7 | 大三下 |
+| 无人系统设计 | filght-design | [AI Flight Plane](https://github.com/echo-xiao9/AI-Fighter-Plane) | 2022.3 - 2022.7 | 大三下 |
 | 数学的天空（选修） | - | [project - 贝特朗悖论与白马非马](https://github.com/WilliamX1/math-learning/tree/main) | 2022.3 - 2022.7 | 大三下 |
