@@ -57,6 +57,10 @@
 | 软件测试 | Software Testing | [性能测试](https://github.com/WilliamX1/SJTU-SE/tree/main/软件测试/性能测试) | 2022.3 - 2022.7 | 大三下 |
 | 操作系统 | OS | [ChCore](https://github.com/WilliamX1/chcore) | 2022.3 - 2022.7 | 大三下 |
 | 云操作系统设计与实践 | OS-Cloud | [minik8s](https://github.com/WilliamX1/minik8s) | 2022.3 - 2022.7 | 大三下 |
+| 云操作系统设计与实践 | OS-Cloud | [lab1](https://github.com/WilliamX1/SJTU-SE/tree/main/云操作系统设计与实践/lab1) | 2022.3 - 2022.7 | 大三下 |
+| 云操作系统设计与实践 | OS-Cloud | [lab2](https://github.com/WilliamX1/SJTU-SE/tree/main/云操作系统设计与实践/lab2) | 2022.3 - 2022.7 | 大三下 |
+| 云操作系统设计与实践 | OS-Cloud | [lab3](https://github.com/WilliamX1/SJTU-SE/tree/main/云操作系统设计与实践/lab3) | 2022.3 - 2022.7 | 大三下 |
+| 云操作系统设计与实践 | OS-Cloud | [k8s-hw](https://github.com/WilliamX1/SJTU-SE/tree/main/云操作系统设计与实践/k8s-hw) | 2022.3 - 2022.7 | 大三下 |
 | 无人系统设计 | filght-design | [hw1](https://github.com/WilliamX1/SJTU-SE/blob/main/无人系统设计/hw1) | 2022.3 - 2022.7 | 大三下 |
 | 无人系统设计 | filght-design | [hw2](https://github.com/WilliamX1/SJTU-SE/blob/main/无人系统设计/hw2) | 2022.3 - 2022.7 | 大三下 |
 | 无人系统设计 | filght-design | [hw3](https://github.com/WilliamX1/SJTU-SE/blob/main/无人系统设计/hw3) | 2022.3 - 2022.7 | 大三下 |
