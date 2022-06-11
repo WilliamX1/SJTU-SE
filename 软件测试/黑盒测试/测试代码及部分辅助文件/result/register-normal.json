@@ -1,0 +1,61 @@
+{
+	"id": "267d46f1-a89b-463d-911f-24977d3ec9d6",
+	"name": "Black-Box-Testing",
+	"timestamp": "2022-03-20T11:00:55.384Z",
+	"collection_id": "19681375-dab53edd-fffb-495b-bc97-74271f852e7d",
+	"folder_id": 0,
+	"environment_id": "19681375-8fa58bf8-c66a-467c-ae59-441bab861f12",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "48e67a35-1670-45e3-969a-a95d6d337de6",
+			"name": "register-normal",
+			"url": "http://localhost:9090/register?username=ebook-normal&password=ebook12345&re_password=ebook12345&email=ebook@126.com",
+			"time": 981,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Response time is less than 2000ms": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				981
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true,
+					"Your test name": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 981,
+	"collection": {
+		"requests": [
+			{
+				"id": "48e67a35-1670-45e3-969a-a95d6d337de6",
+				"method": "POST"
+			}
+		]
+	}
+}

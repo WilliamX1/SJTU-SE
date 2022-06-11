@@ -1,0 +1,79 @@
+{
+	"id": "5912e98a-afce-466b-aead-2e1c787e772a",
+	"name": "Black-Box-Testing",
+	"timestamp": "2022-03-21T08:59:30.623Z",
+	"collection_id": "19681375-dab53edd-fffb-495b-bc97-74271f852e7d",
+	"folder_id": 0,
+	"environment_id": "19681375-8fa58bf8-c66a-467c-ae59-441bab861f12",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b92180c8-24a5-476a-8c89-329a80006e50",
+			"name": "orderdaterange-abnormal",
+			"time": 7,
+			"responseCode": {
+				"code": 406,
+				"name": "Not Acceptable"
+			},
+			"tests": {
+				"Successful GET request": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 6,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				656,
+				103,
+				76,
+				29,
+				13,
+				7
+			],
+			"allTests": [
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		}
+	],
+	"count": 6,
+	"totalTime": 884,
+	"collection": {
+		"requests": [
+			{
+				"id": "b92180c8-24a5-476a-8c89-329a80006e50",
+				"method": "GET"
+			}
+		]
+	}
+}

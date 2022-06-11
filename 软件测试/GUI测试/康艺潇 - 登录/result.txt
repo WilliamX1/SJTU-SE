@@ -1,0 +1,22 @@
+上海交通大学教学信息服务网 登陆功能测试开始...
+	- current page title: 上海交通大学教学信息服务网
+	==>通过 find_element_by_xpath 方法获取文字,验证为:登录	==>成功获取文字内容：登录
+
+开始测试输入框（用户名和密码）
+	==>通过 find_element_by_id/css/xpath 方法获取输入框...密码	==>成功获取用户名和密码输入框！
+
+开始测试登陆按钮
+	==>通过 find_element_by_xpath/id 方法获取登陆按钮
+	==>成功获取登录按钮
+ - page title after click: 上海交通大学教学信息服务网	==>按钮成功跳转至上海交通大学教学信息服务网
+	==>按钮文字为登录
+
+开始测试链接
+	==>通过 find_element_by_id/xpath 方法获取跳转的链接
+==>成功获取跳转链接
+==>跳转链接名为https://i.sjtu.edu.cn/jaccountlogin - page title after click: 上海交通大学统一身份认证
+==>链接成功跳转: 上海交通大学统一身份认证
+
+所有测试全部通过！
+
+

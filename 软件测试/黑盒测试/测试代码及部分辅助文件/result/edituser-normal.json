@@ -1,0 +1,78 @@
+{
+	"id": "ed51637f-8ec5-4d16-92cd-ada12dd35fe8",
+	"name": "Black-Box-Testing",
+	"timestamp": "2022-03-20T11:14:20.862Z",
+	"collection_id": "19681375-dab53edd-fffb-495b-bc97-74271f852e7d",
+	"folder_id": 0,
+	"environment_id": "19681375-8fa58bf8-c66a-467c-ae59-441bab861f12",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "121f298a-04cc-42c3-9b88-689f2697946e",
+			"name": "edituser-normal",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Response time is less than 2000ms": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				26,
+				16,
+				10,
+				10
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true,
+					"Your test name": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true,
+					"Your test name": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true,
+					"Your test name": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true,
+					"Your test name": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 62,
+	"collection": {
+		"requests": [
+			{
+				"id": "121f298a-04cc-42c3-9b88-689f2697946e",
+				"method": "POST"
+			}
+		]
+	}
+}

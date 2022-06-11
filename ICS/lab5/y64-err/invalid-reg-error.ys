@@ -1,4 +1,0 @@
-# test for error handqing of invalid register
-	pushq %rzx
-	halt
-# end

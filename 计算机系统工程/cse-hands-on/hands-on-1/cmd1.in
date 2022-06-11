@@ -1,0 +1,13 @@
+begin 1
+create_account 1 studentA 1000
+commit 1
+end 1
+begin 2
+create_account 2 studentB 2000
+credit_account 2 studentA 100
+begin 3
+create_account 3 studentC 3000
+commit 2
+debit_account 3 studentC 100
+show_state
+crash

@@ -1,0 +1,234 @@
+{
+	"id": "0e38dcbc-051c-4b03-a4e5-7ae37cd1ab74",
+	"name": "Black-Box-Testing",
+	"timestamp": "2022-03-20T11:02:17.748Z",
+	"collection_id": "19681375-dab53edd-fffb-495b-bc97-74271f852e7d",
+	"folder_id": 0,
+	"environment_id": "19681375-8fa58bf8-c66a-467c-ae59-441bab861f12",
+	"totalPass": 74,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "47d10f86-6295-44f4-919f-d943c6a53c17",
+			"name": "register-abnormal",
+			"time": 5,
+			"responseCode": {
+				"code": 406,
+				"name": "Not Acceptable"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 37,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 37,
+					"fail": 0
+				}
+			},
+			"times": [
+				42,
+				8,
+				8,
+				8,
+				6,
+				8,
+				8,
+				10,
+				10,
+				7,
+				10,
+				15,
+				8,
+				16,
+				12,
+				8,
+				12,
+				17,
+				5,
+				6,
+				7,
+				6,
+				6,
+				11,
+				14,
+				23,
+				7,
+				6,
+				11,
+				11,
+				11,
+				15,
+				5,
+				5,
+				5,
+				6,
+				5
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		}
+	],
+	"count": 37,
+	"totalTime": 378,
+	"collection": {
+		"requests": [
+			{
+				"id": "47d10f86-6295-44f4-919f-d943c6a53c17",
+				"method": "POST"
+			}
+		]
+	}
+}

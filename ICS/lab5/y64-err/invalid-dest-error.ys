@@ -1,4 +1,0 @@
-# test for error handqing of invalid dest for JXX/CALL
-	jmp 123
-	halt
-# end

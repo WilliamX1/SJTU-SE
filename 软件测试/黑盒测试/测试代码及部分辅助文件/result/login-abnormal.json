@@ -1,0 +1,84 @@
+{
+	"id": "7d786f43-857b-4230-b9a3-7bbb6715a6a9",
+	"name": "Black-Box-Testing",
+	"timestamp": "2022-03-20T11:03:18.142Z",
+	"collection_id": "19681375-dab53edd-fffb-495b-bc97-74271f852e7d",
+	"folder_id": 0,
+	"environment_id": "19681375-8fa58bf8-c66a-467c-ae59-441bab861f12",
+	"totalPass": 14,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "199c73ba-39d6-4ee7-aba0-4c2c2aeec8b3",
+			"name": "login-abnormal",
+			"time": 7,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Successful GET request": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 7,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 7,
+					"fail": 0
+				}
+			},
+			"times": [
+				9,
+				13,
+				8,
+				6,
+				6,
+				9,
+				7
+			],
+			"allTests": [
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		}
+	],
+	"count": 7,
+	"totalTime": 58,
+	"collection": {
+		"requests": [
+			{
+				"id": "199c73ba-39d6-4ee7-aba0-4c2c2aeec8b3",
+				"method": "GET"
+			}
+		]
+	}
+}

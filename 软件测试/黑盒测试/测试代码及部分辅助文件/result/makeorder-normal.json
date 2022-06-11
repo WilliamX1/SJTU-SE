@@ -1,0 +1,99 @@
+{
+	"id": "4785d1df-bc26-4aaa-9a1d-71368516aff8",
+	"name": "Black-Box-Testing",
+	"timestamp": "2022-03-21T11:54:28.668Z",
+	"collection_id": "19681375-dab53edd-fffb-495b-bc97-74271f852e7d",
+	"folder_id": 0,
+	"environment_id": "19681375-8fa58bf8-c66a-467c-ae59-441bab861f12",
+	"totalPass": 18,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "11dccd22-038c-470f-b2c9-07299de10d7e",
+			"name": "makeorder-normal",
+			"time": 49,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 8,
+					"fail": 2
+				},
+				"Response time is less than 2000ms": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				727,
+				44,
+				30,
+				43,
+				27,
+				36,
+				27,
+				48,
+				15,
+				49
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": false,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": false,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 1046,
+	"collection": {
+		"requests": [
+			{
+				"id": "11dccd22-038c-470f-b2c9-07299de10d7e",
+				"method": "POST"
+			}
+		]
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"id": "18bc021a-363a-4f8c-b6e5-db2049b82069",
+	"name": "Black-Box-Testing",
+	"timestamp": "2022-03-20T11:13:10.567Z",
+	"collection_id": "19681375-dab53edd-fffb-495b-bc97-74271f852e7d",
+	"folder_id": 0,
+	"environment_id": "19681375-8fa58bf8-c66a-467c-ae59-441bab861f12",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f730f9b1-e041-4beb-92f1-acf5a2a1a72d",
+			"name": "orderdaterange-normal",
+			"url": "http://localhost:9090/getOrdersByBookAndDaterange?username=Customer&password=customer1234&startdate=2021-03-19&enddate=2021-03-21&searchbookstr=Algorithm",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true,
+				"Response time is less than 2000ms": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				151
+			],
+			"allTests": [
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true,
+					"Your test name": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 151,
+	"collection": {
+		"requests": [
+			{
+				"id": "f730f9b1-e041-4beb-92f1-acf5a2a1a72d",
+				"method": "GET"
+			}
+		]
+	}
+}

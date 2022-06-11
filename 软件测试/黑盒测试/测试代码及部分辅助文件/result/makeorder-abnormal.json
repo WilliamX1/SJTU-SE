@@ -1,0 +1,109 @@
+{
+	"id": "9baf8ad8-024e-44c6-9a5f-15b3fb529a57",
+	"name": "Black-Box-Testing",
+	"timestamp": "2022-03-20T11:11:53.172Z",
+	"collection_id": "19681375-dab53edd-fffb-495b-bc97-74271f852e7d",
+	"folder_id": 0,
+	"environment_id": "19681375-8fa58bf8-c66a-467c-ae59-441bab861f12",
+	"totalPass": 24,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "611a7523-0d41-4af0-b163-947b32b5c247",
+			"name": "makeorder-abnormal",
+			"time": 14,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 12,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 12,
+					"fail": 0
+				}
+			},
+			"times": [
+				112,
+				22,
+				128,
+				23,
+				19,
+				18,
+				10,
+				9,
+				10,
+				9,
+				35,
+				14
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				},
+				{
+					"Successful POST request": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		}
+	],
+	"count": 12,
+	"totalTime": 409,
+	"collection": {
+		"requests": [
+			{
+				"id": "611a7523-0d41-4af0-b163-947b32b5c247",
+				"method": "POST"
+			}
+		]
+	}
+}

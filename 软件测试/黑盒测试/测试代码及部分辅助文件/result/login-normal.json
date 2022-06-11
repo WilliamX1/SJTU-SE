@@ -1,0 +1,66 @@
+{
+	"id": "2e0e2352-255b-4bcf-bded-db6719659ded",
+	"name": "Black-Box-Testing",
+	"timestamp": "2022-03-20T11:02:48.294Z",
+	"collection_id": "19681375-dab53edd-fffb-495b-bc97-74271f852e7d",
+	"folder_id": 0,
+	"environment_id": "19681375-8fa58bf8-c66a-467c-ae59-441bab861f12",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "01948efe-dadd-4af6-a2ad-c9f8a0312bb0",
+			"name": "login-normal",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful GET request": true,
+				"Response time is less than 2000ms": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Successful GET request": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				181,
+				9
+			],
+			"allTests": [
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true,
+					"Your test name": true
+				},
+				{
+					"Successful GET request": true,
+					"Response time is less than 2000ms": true,
+					"Your test name": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 190,
+	"collection": {
+		"requests": [
+			{
+				"id": "01948efe-dadd-4af6-a2ad-c9f8a0312bb0",
+				"method": "GET"
+			}
+		]
+	}
+}
