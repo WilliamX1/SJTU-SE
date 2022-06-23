@@ -1,17 +1,22 @@
-TEMPLATE = app
-CONFIG += console c++11
-CONFIG -= app_bundle
-CONFIG -= qt
+# Created by and for Qt Creator This file was created for editing the project sources only.
+# You may attempt to use it for building too, by modifying this file here.
 
-SOURCES += \
-    Class.cc \
-    Student.cc \
-    main.cc
+#TARGET = lab_1
 
-HEADERS += \
-    Class.h \
-    Student.h
+QT = core gui widgets
 
-DISTFILES += \
-    Classes.txt \
-    Students.txt
+CONFIG += console
+HEADERS = \
+   $$PWD/Class.h \
+   $$PWD/Student.h
+
+SOURCES = \
+   $$PWD/Class.cc \
+   $$PWD/main.cc \
+   $$PWD/Student.cc
+
+INCLUDEPATH = \
+    $$PWD/.
+
+#DEFINES = 
+

@@ -1,0 +1,5 @@
+错误的构造函数中在函数体内对该类const变量进行赋值，这是不被允许的。
+因此，为了保证该类中student和id为const变量，需要在构造函数的初始化列表中对其赋值，即：
+    
+StudentWrapper(const std::string &id, const Student &student)
+        : student(student),id(id){};

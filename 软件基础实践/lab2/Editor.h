@@ -10,7 +10,7 @@ private:
   void cmdAppend();
   void cmdInsert();
   void cmdDelete(int start, int end);
-  void cmdNumber(int start, int end);
+  void cmdNumber(int start, int end, bool flag = false);
   void cmdWrite(const string &filename);
   void cmdNull(int line);
 public:

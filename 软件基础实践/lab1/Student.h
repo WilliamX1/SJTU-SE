@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include <iostream>
 
 class Class;
 
@@ -14,17 +15,34 @@ enum Degree {
 class Student {
     // TODO: implement class Student.
 private:
-
+    const std::string name;
+    const std::string year;
+    const enum Degree degree;
 protected:
-
+    std::vector<Class *> classes;
 public:
     const std::string id;
+    Student(const std::string &id, const std::string name, const std::string year, enum Degree degree)
+        :id(id), name(name), year(year), degree(degree){};
+    virtual double getGrade() = 0;
     std::string toString() const;
+    void addClass(Class* c);
 };
 
 // TODO: implement class Graduate.
-
+class Undergraduate : public Student{
+public:
+    Undergraduate(const std::string &id, const std::string name, const std::string year)
+        :Student(id, name, year, undergraduate){};
+    double getGrade();
+};
 // TODO: implement class Undergraduate.
+class Graduate : public Student{
+public:
+    Graduate(const std::string &id, const std::string name, const std::string year)
+        :Student(id, name, year, graduate){};
+    double getGrade();
+};
 
 class StudentWrapper {
 private:
@@ -32,16 +50,12 @@ private:
     double score = 0.0;
 public:
     const std::string id;
-    // TODO: fix error
-    StudentWrapper(const std::string &id, const Student &student) {
-        this->id = id;
-        this->student = student;
-    }
+    // TODO: fix error, already fixed!
+    StudentWrapper(const std::string &id, const Student &student)
+        : student(student),id(id){};
 
     void setScore(double score)
     {
-        if (score < 0 || score > 100)
-            throw "Invalid Score!";
         this->score = score;
     }
 
